@@ -8,7 +8,7 @@ import App from './App';
 import './assets/styles/style.css';
 
 ReactDOM.render((
-    <BrowserRouter>
+    <BrowserRouter basename="/testing-react">
         <I18nextProvider i18n={i18n}>
             <App />
         </I18nextProvider>
